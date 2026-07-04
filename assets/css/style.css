@@ -1,0 +1,78 @@
+:root {
+    --primary-yellow: rgb(245, 208, 78)
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--primary-yellow);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    font-family: "Figtree", sans-serif;
+}
+
+.container {
+    display: inherit;
+    width: 320px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    border: 2px solid black;
+}
+
+.illustration {
+    align-self: flex-start;
+    max-width: 100%;
+    height: auto;
+    border-radius: 11px;
+}
+
+.article-category {
+    display: inline-block;
+    padding: 0.4em 0.8em;
+    margin: 20px 0px;
+    background-color: var(--primary-yellow);
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.container article {
+    display: inherit;
+    width: 320px;
+}
+
+.author-info {
+    display: flex;
+    align-self: start;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.author-info img {
+    height: 30px;
+}
+
+.author-name {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.date-published {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+p {
+    font-weight: 200;
+}
+
